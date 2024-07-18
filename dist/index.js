@@ -1,5 +1,5 @@
-"use strict";var N=function(r,e){return function(){return e||r((e={exports:{}}).exports,e),e.exports}};var p=N(function(y,q){
-var v=require('@stdlib/math-base-assert-is-nan/dist'),s=require('@stdlib/math-base-assert-is-infinite/dist'),c=require('@stdlib/math-base-special-pow/dist'),g=require('@stdlib/math-base-special-log10/dist'),l=require('@stdlib/math-base-special-ln/dist'),f=require('@stdlib/math-base-special-abs/dist'),o=require('@stdlib/math-base-special-floor/dist'),m=require('@stdlib/number-float64-base-exponent/dist');function d(r,e,t){var a,i,u,n;if(v(r)||v(e)||e<1||s(e))return NaN;if(arguments.length>2){if(v(t)||t<=0||s(t))return NaN;a=t}else a=10;return s(r)||r===0||(a===10?i=g(f(r)):a===2?i=m(f(r)):i=l(f(r))/l(a),i=o(i-e+1),u=c(a,f(i)),s(u))||(i<0?n=o(r*u)/u:n=o(r/u)*u,s(n))?r:n}q.exports=d
-});var h=p();module.exports=h;
+"use strict";var p=function(r,e){return function(){return e||r((e={exports:{}}).exports,e),e.exports}};var l=p(function(y,q){
+var f=require('@stdlib/math-base-assert-is-nan/dist'),t=require('@stdlib/math-base-assert-is-infinite/dist'),N=require('@stdlib/math-base-special-pow/dist'),c=require('@stdlib/math-base-special-log10/dist'),o=require('@stdlib/math-base-special-ln/dist'),n=require('@stdlib/math-base-special-abs/dist'),v=require('@stdlib/math-base-special-floor/dist'),d=require('@stdlib/number-float64-base-exponent/dist');function g(r,e,i){var u,a,s;return f(r)||f(e)||e<1||t(e)?NaN:f(i)||i<=0||t(i)?NaN:t(r)||r===0||(i===10?u=c(n(r)):i===2?u=d(n(r)):u=o(n(r))/o(i),u=v(u-e+1),a=N(i,n(u)),t(a))||(u<0?s=v(r*a)/a:s=v(r/a)*a,t(s))?r:s}q.exports=g
+});var m=l();module.exports=m;
 /** @license Apache-2.0 */
 //# sourceMappingURL=index.js.map
