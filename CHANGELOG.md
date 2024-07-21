@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-07-20)
+## Unreleased (2024-07-21)
 
 <section class="features">
 
@@ -45,6 +45,7 @@
 
 <details>
 
+-   [`ead1c3b`](https://github.com/stdlib-js/stdlib/commit/ead1c3b780527d8068d9c076e85688be94d53775) - **chore:** update package meta data [(#2640)](https://github.com/stdlib-js/stdlib/pull/2640) _(by stdlib-bot, Athan Reines)_
 -   [`b063947`](https://github.com/stdlib-js/stdlib/commit/b0639472175808254213fd35d2902e52b998b4cc) - **refactor:** reduce code complexity [(#2632)](https://github.com/stdlib-js/stdlib/pull/2632) _(by Gunj Joshi, Athan Reines)_
 -   [`691e774`](https://github.com/stdlib-js/stdlib/commit/691e774930ab3d983998e53ad16dbf4bd5eb0c76) - **refactor:** make base parameter compulsory in `math/base/special/floorsd` [(##2617)](#2617) _(by Gunj Joshi)_
 -   [`fe25386`](https://github.com/stdlib-js/stdlib/commit/fe25386fdcdbb684dc96990ba12171d5bf62df6d) - **feat:** add C implementation for `math/base/special/floorsd` [(##2603)](#2603) _(by Gunj Joshi)_
