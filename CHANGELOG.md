@@ -45,6 +45,7 @@
 
 <details>
 
+-   [`8de8d90`](https://github.com/stdlib-js/stdlib/commit/8de8d90b8a5d72f7c2e57ae21593be5f5f1eb8e7) - **refactor:** perform explicit cast [(#2642)](https://github.com/stdlib-js/stdlib/pull/2642) _(by Gunj Joshi)_
 -   [`ead1c3b`](https://github.com/stdlib-js/stdlib/commit/ead1c3b780527d8068d9c076e85688be94d53775) - **chore:** update package meta data [(#2640)](https://github.com/stdlib-js/stdlib/pull/2640) _(by stdlib-bot, Athan Reines)_
 -   [`b063947`](https://github.com/stdlib-js/stdlib/commit/b0639472175808254213fd35d2902e52b998b4cc) - **refactor:** reduce code complexity [(#2632)](https://github.com/stdlib-js/stdlib/pull/2632) _(by Gunj Joshi, Athan Reines)_
 -   [`691e774`](https://github.com/stdlib-js/stdlib/commit/691e774930ab3d983998e53ad16dbf4bd5eb0c76) - **refactor:** make base parameter compulsory in `math/base/special/floorsd` [(##2617)](#2617) _(by Gunj Joshi)_
