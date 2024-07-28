@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import floorsd from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-floorsd@esm/index.mjs';
+import floorsd from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-floorsd@v0.3.0-esm/index.mjs';
 ```
 
 #### floorsd( x, n, b )
@@ -86,7 +86,7 @@ v = floorsd( 0.0313, 2, 2 );
 <script type="module">
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import floorsd from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-floorsd@esm/index.mjs';
+import floorsd from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-floorsd@v0.3.0-esm/index.mjs';
 
 var x;
 var y;
