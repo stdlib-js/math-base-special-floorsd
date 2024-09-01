@@ -20,20 +20,19 @@
 
 ### BREAKING CHANGES
 
--   [`691e774`](https://github.com/stdlib-js/stdlib/commit/691e774930ab3d983998e53ad16dbf4bd5eb0c76): make base parameter compulsory in `math/base/special/floorsd`
--   [`691e774`](https://github.com/stdlib-js/stdlib/commit/691e774930ab3d983998e53ad16dbf4bd5eb0c76): The base parameter must now be provided explicitly.  
+-   [`691e774`](https://github.com/stdlib-js/stdlib/commit/691e774930ab3d983998e53ad16dbf4bd5eb0c76): The base parameter must now be provided explicitly. 
 
     -   Previously, the base parameter had a default value of 10. Now it has to be supplied explicitly.
-    Before:
-    ```
-    var v = floorsd( 3.141592653589793, 5 );
-    // returns 3.1415
-    ```
-    After:
-    ```
-    var v = floorsd( 3.141592653589793, 5, 10 );
-    // returns 3.1415
-    ```
+        Before:
+        ```
+        var v = floorsd( 3.141592653589793, 5 );
+        // returns 3.1415
+        ```
+        After:
+        ```
+        var v = floorsd( 3.141592653589793, 5, 10 );
+        // returns 3.1415
+        ```
 
 </section>
 
@@ -113,8 +112,7 @@ No changes reported for this release.
 
 ### BREAKING CHANGES
 
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1 
+-   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
